@@ -92,7 +92,7 @@ Funções principais:
 
 ## Circuito
 
-![Circuito Wokwi](assets/circuito_wokwi.png)
+![Circuito Wokwi](assets/lcd_wokwi.png)
 
 
 ## 🚀 Melhorias da Fase 4
