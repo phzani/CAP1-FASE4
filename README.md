@@ -80,6 +80,7 @@ Funções principais:
 * 0.1.0 – Fase 1 – Projeto Inicial
 
 ---
+## Vídeo do projeto: [Youtube](https://www.youtube.com/watch?v=clRI9BjdPls)
 
 ## Componentes Simulados
 
