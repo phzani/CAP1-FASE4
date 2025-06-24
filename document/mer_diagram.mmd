@@ -1,0 +1,36 @@
+erDiagram
+    PRODUTOR ||--o{ PLANTACAO : possui
+    PLANTACAO ||--o{ CULTURA : contem
+    PLANTACAO ||--o{ SENSOR_APLICADO : possui
+    SENSOR ||--o{ SENSOR_APLICADO : instancia
+    SENSOR_APLICADO ||--o{ LEITURA_SENSOR : gera
+
+    PRODUTOR {
+        int id
+        string nome
+    }
+    PLANTACAO {
+        int id
+        string descricao
+        int produtor_id
+    }
+    CULTURA {
+        int id
+        string tipo
+        int plantacao_id
+    }
+    SENSOR {
+        int id
+        string tipo
+    }
+    SENSOR_APLICADO {
+        int id
+        int sensor_id
+        int plantacao_id
+    }
+    LEITURA_SENSOR {
+        int id
+        datetime data_hora
+        float valor
+        int sensor_aplicado_id
+    } 
